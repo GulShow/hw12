@@ -40,6 +40,9 @@
       color: $light-color;
       font-size: $font-sm;
       font-weight: 400;
+      &:hover {
+        color: $accent-color;
+      }
     }
   }
 
