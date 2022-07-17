@@ -15,6 +15,15 @@
         gap: 20px;
       }
     }
+    &__card-text--heading {
+      font-size: 20px;
+    }
+    &__card-text-p {
+      font-size: 15px;
+    }
+    .col-4 {
+      width: 50%;
+    }
   }
   $display-media2: 990px;
   @media(max-width: $display-media2) {
@@ -46,6 +55,15 @@
     }
     .accord2 {
       display: block;
+    }
+    &__card-text--heading {
+      font-size: 15px;
+    }
+    &__card-text-p {
+      font-size: 10px;
+    }
+    &__panel-sidebar {
+      display: none;
     }
   }
 
